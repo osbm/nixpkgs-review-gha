@@ -56,7 +56,7 @@ on:
         description: "Push to cache"
         required: true
         type: boolean
-        default: true
+        default: false
       upterm:
         description: "Start upterm session after nixpkgs-review"
         required: true
